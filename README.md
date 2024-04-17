@@ -1,6 +1,7 @@
 Project Name: CSRF Demo Application
 
 Introduction
+
 This project demonstrates a simple Cross-Site Request Forgery (CSRF) attack scenario using PHP and HTML. The files included are used to simulate an attack where a user's username is changed without their consent through CSRF.
 
 Prerequisites
@@ -38,5 +39,7 @@ Open your web browser and navigate to `http://localhost:8000/input.php` to set o
 Step 3: Trigger the Attack
 Open `attack.html` in your browser, which will automatically execute the CSRF attack by submitting a form to `change_username.php`. This action will change the username without the user's direct interaction.
 
+
 Conclusion
+
 This setup demonstrates the vulnerability of web applications to CSRF attacks and the importance of implementing CSRF tokens in forms to prevent such exploits.
