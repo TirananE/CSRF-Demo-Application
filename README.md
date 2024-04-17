@@ -31,7 +31,7 @@ Running the Application
 
 Step 1: Start the Server
 Start your PHP server if it's not already running. For example, if using the built-in PHP server, navigate to your project directory and run:
-
+`php -S localhost:8000`
 
 Step 2: Open `input.php`
 Open your web browser and navigate to `http://localhost:8000/input.php` to set or change the initial username.
